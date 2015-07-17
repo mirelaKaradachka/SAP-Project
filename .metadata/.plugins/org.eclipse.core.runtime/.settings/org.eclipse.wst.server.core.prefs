@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime RUNTIME_SDK_LOCATION\="D\:\\SAP_IDE\\tu_ide\\hcp_sdk" RUNTIME_SDK_VERSION\="2.64.10.1" RUNTIME_VERSION\="2.0.0" id\="Java EE 6 Web Profile" location\="C\:/Users/user/Desktop/SAP/SAP-Project/.metadata/.plugins/com.sap.core.tools.eclipse.server.version/Java EE 6 Web Profile" name\="Java EE 6 Web Profile" runtime-type-id\="com.sap.core.runtime.sdk" target_platform_json\="{&quot;name&quot;\:&quot;SAP HANA Cloud Platform SDK&quot;,&quot;handle&quot;\:&quot;1437126911247.target&quot;,&quot;location&quot;\:&quot;1437126911247.target&quot;}" timestamp\="1"/>\r\n</runtimes>\r\n
