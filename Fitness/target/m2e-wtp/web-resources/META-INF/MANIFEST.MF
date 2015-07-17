@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: Natalie
+=======
+Built-By: Dido
+>>>>>>> origin/master
 Build-Jdk: 1.8.0_51
 Created-By: Maven Integration for Eclipse
 
