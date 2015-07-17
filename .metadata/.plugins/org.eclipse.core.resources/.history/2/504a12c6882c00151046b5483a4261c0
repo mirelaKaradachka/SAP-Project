@@ -1,0 +1,12 @@
+package model;
+
+public class UserCharacteristics {
+private int userId;
+private int age;
+private boolean isMale;
+private double weight;
+private double height;
+//1-21 size
+private int activityLevel;
+//private 
+}
