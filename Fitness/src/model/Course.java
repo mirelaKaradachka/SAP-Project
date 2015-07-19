@@ -1,6 +1,7 @@
 package model;
-
-public class Product {
+//annotation
+//foreign key to meal (many to 1 with Meal)
+public class Course {
 	private int id;
 	private String name;
 	private double calories;
@@ -8,7 +9,7 @@ public class Product {
 	private double fats;
 	private double carbohydrates;
 	
-	public Product() {
+	public Course() {	
 		super();
 		// TODO Auto-generated constructor stub
 	}

@@ -1,7 +1,7 @@
 package model;
 
-//anotaciq ...
-//foreign key to days
+//annotation ...
+//many to many with Day
 
 public class Meal {
 	private int id;
