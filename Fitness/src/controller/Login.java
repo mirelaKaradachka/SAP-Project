@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import model.User;
+
 /**
  * Servlet implementation class Login
  */
@@ -29,7 +31,8 @@ public class Login extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
-		
+		doPost(request, response);
+	
 	}
 
 	/**
@@ -37,7 +40,24 @@ public class Login extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		User u = new User();
+		String username = null ; 
+		String password = null;
+				username = (String)request.getAttribute("username") ;
+				password = (String)request.getAttribute("password") ;
+				
+				if(username != null && !username.isEmpty() && password !=null && password.isEmpty()){
+					u.setUsername(username); 
+					response.setStatus(200);
+				}else
+				{
+					response.setStatus(400);
+				}
+				
+				// tyrsim ot bazata za user s username 
+				//i parolata dali syvpadat s tekushtata
+				
+		
 	}
 
 }
