@@ -1,0 +1,14 @@
+[2015-07-17 13:02:11.469] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/oauth2.local'. 
+[2015-07-17 13:02:52.532] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/saml2/localidp'. 
+[2015-07-17 13:03:52.579] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/saml2/sp'. 
+[2015-07-17 13:04:21.872] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/n'. 
+[2015-07-17 13:05:37.496] startup-tracker              <KE0001I> Kernel starting. 
+[2015-07-17 13:05:37.698] startup-tracker              <KE0002I> Kernel started. 
+[2015-07-17 13:05:38.416] startup-readiness            <KE0007I> Virgo ready. Started for 367.183s. 
+[2015-07-17 13:05:52.856] pool-3-thread-1              <DS0000W> Failed to satisfy declarative service component 'com.sap.core.jpaas.security.utils' from origin bundle 'com.sap.core.jpaas.security.utils_1.4.24.rt2 [64]'. 
+[2015-07-17 13:06:03.570] fs-watcher                   <HD0001I> Hot deployer processing 'CREATED' event for file 'Fitness.war'. 
+[2015-07-17 13:06:03.577] fs-watcher                   <DE0001I> Installing from 'C:\Users\user\Desktop\SAP\SAP-Project\Servers\Java EE 6 Web Profile Server-config\pickup\Fitness.war'. 
+[2015-07-17 13:06:04.200] fs-watcher                   <DE0002I> Installed web bundle 'Fitness' version '0.0.0'. 
+[2015-07-17 13:06:04.200] fs-watcher                   <DE0009I> Starting web bundle 'Fitness' version '0.0.0'. 
+[2015-07-17 13:06:15.137] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-17 13:06:17.218] fs-watcher                   <DE0010I> Started web bundle 'Fitness' version '0.0.0'. 

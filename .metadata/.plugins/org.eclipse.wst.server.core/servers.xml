@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server ajp_port_nr="8009" auto-publish-setting="1" configuration-id="/Servers/Java EE 6 Web Profile Server-config" hostname="localhost" id="Java EE 6 Web Profile Server" instance_nr="8080" jmx_port_nr="1717" name="Java EE 6 Web Profile Server" org.eclipse.jdt.launching.WORKING_DIRECTORY="C:\Users\user\Desktop\SAP\SAP-Project\Servers\Java EE 6 Web Profile Server-config" runtime-id="Java EE 6 Web Profile" server-type="com.sap.core.server.local" server-type-id="com.sap.core.server.local" start-timeout="60" stop-timeout="60" timestamp="2">
+    <map key="generic_server_instance_properties"/>
+    <list key="modules" value0="Fitness::org.eclipse.jst.jee.server:Fitness::jst.web::3.0"/>
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.jee.server:Fitness"/>
+  </server>
+</servers>

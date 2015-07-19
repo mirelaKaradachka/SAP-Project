@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.sap.core.tools.eclipse.server.local.launch">
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="JAVA_HOME" value="D:\SAP_IDE\tu_ide\java"/>
+</mapAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ALLOW_TERMINATE" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value=""/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=" -XX:+HeapDumpOnOutOfMemoryError -XX:+DisableExplicitGC -Xms512m -Xmx1024m -XX:PermSize=256M -XX:MaxPermSize=256M -Dcom.sun.management.jmxremote.port=1717 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dosgi.requiredJavaVersion=1.6 -DuseNaming=osgi -Dosgi.install.area=. -Djava.io.tmpdir=./work/tmp -Djava.endorsed.dirs=lib/endorsed -Dorg.eclipse.equinox.simpleconfigurator.exclusiveInstallation=false -Dcom.sap.core.process=ljs_node -Declipse.ignoreApp=true -Dosgi.noShutdown=true -Dosgi.framework.activeThreadType=normal -Dosgi.embedded.cleanupOnSave=true -Dosgi.usesLimit=30 -Djava.awt.headless=true -Djava.rmi.server.hostname=127.0.0.1"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\user\Desktop\SAP\SAP-Project\Servers\Java EE 6 Web Profile Server-config"/>
+<stringAttribute key="org.eclipse.jst.server.generic.core.COMMANDLINE" value="&quot;C:\Users\user\Desktop\SAP\SAP-Project\Servers\Java EE 6 Web Profile Server-config\go.bat&quot;"/>
+<stringAttribute key="org.eclipse.jst.server.generic.core.DEBUG_PORT" value="62878"/>
+<stringAttribute key="org.eclipse.jst.server.generic.core.EXECUTABLE_NAME" value="&quot;C:\Users\user\Desktop\SAP\SAP-Project\Servers\Java EE 6 Web Profile Server-config\go.bat&quot;"/>
+<stringAttribute key="org.eclipse.jst.server.generic.core.HOST" value="localhost"/>
+<stringAttribute key="server-id" value="Java EE 6 Web Profile Server"/>
+</launchConfiguration>

@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+repositories/file\:_D\:_SAP_IDE_tu_ide_hcp_sdk_repository/enabled=true
+repositories/file\:_D\:_SAP_IDE_tu_ide_hcp_sdk_repository/isSystem=false
+repositories/file\:_D\:_SAP_IDE_tu_ide_hcp_sdk_repository/name=SDK Update Site for SAP HANA Cloud local runtime
+repositories/file\:_D\:_SAP_IDE_tu_ide_hcp_sdk_repository/suffix=content.xml
+repositories/file\:_D\:_SAP_IDE_tu_ide_hcp_sdk_repository/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_D\:_SAP_IDE_tu_ide_hcp_sdk_repository/uri=file\:/D\:/SAP_IDE/tu_ide/hcp_sdk/repository/
+repositories/file\:_D\:_SAP_IDE_tu_ide_hcp_sdk_repository/version=1.0.0
