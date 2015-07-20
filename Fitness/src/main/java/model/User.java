@@ -1,13 +1,21 @@
 package model;
 
 
+import java.util.Set;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 
 @Entity
 public class User {
 private static final int MAX_ACHIEVEMENT_POINTS = 1000;
 @Id
+@GeneratedValue(strategy = GenerationType.AUTO)
 private int id;
 private String username;
 private String password;
@@ -25,6 +33,8 @@ private double activityLevel;
 private int achievementPoints;
 private String workOutPlan;
 
+@ManyToMany(cascade={CascadeType.ALL})
+private Set<Day> days;
 
 public User() {
 	super();
@@ -143,11 +153,8 @@ public String getWorkOutPlan() {
 }
 
 public void setWorkOutPlan(String workOutPlan) {
-	if(workOutPlan != null || !workOutPlan.isEmpty())
+	if(workOutPlan != null && !workOutPlan.isEmpty())
 	this.workOutPlan = workOutPlan;
 }
-
-
-
 
 }

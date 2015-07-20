@@ -1,7 +1,16 @@
 package model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 //annotation
 //foreign key to meal (many to 1 with Meal)
+@Entity
 public class Course {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private String name;
 	private double calories;
