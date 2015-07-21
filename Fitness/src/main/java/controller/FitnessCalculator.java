@@ -39,5 +39,5 @@ public class FitnessCalculator extends HttpServlet {
 		doGet(request, response);
 		
 	}
-
+	
 }
