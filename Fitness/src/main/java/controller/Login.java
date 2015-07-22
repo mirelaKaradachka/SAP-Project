@@ -44,16 +44,16 @@ public class Login extends HttpServlet {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		doPost(request, response);
 
-		EntityManager em = factory.createEntityManager();
-		try {
-			em.getTransaction().begin();
-			em.createQuery("select U from User U where U.naame = :name and U.pwd = :pwd", User.class)
-					.setParameter("name", "").getSingleResult();
-		} finally {
-			if (null != em) {
-				em.close();
-			}
-		}
+//		EntityManager em = factory.createEntityManager();
+//		try {
+//			em.getTransaction().begin();
+//			em.createQuery("select U from User U where U.naame = :name and U.pwd = :pwd", User.class)
+//					.setParameter("name", "").getSingleResult();
+//		} finally {
+//			if (null != em) {
+//				em.close();
+//			}
+//		}
 
 	}
 
@@ -83,10 +83,10 @@ public class Login extends HttpServlet {
 		boolean loggedIn = false;
 		try {
 			if (em.find(u.getClass(), username) == null) {
-				response.sendError(0, "Wrong username or password");
+				//response.sendError(0, "Wrong username or password");
 			} else {
 				if (em.find(u.getClass(), SettingManager.cryptMD5(password)) == null) {
-					response.sendError(0, "Wrong username or password");
+					//response.sendError(0, "Wrong username or password");
 				}
 			}
 			loggedIn = true;
