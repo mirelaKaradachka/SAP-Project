@@ -42,9 +42,9 @@ background-size: cover;
 			</tr>
 			<tr>
 				<td><label><font color = "white">Gender:</font></label></td>
-				<td><select value="5" name="gender">
-						<option value="1">Male</option>
-						<option value="2">Female</option>
+				<td><select name="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
 						</select>
 			</tr>
 			<tr>

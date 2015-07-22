@@ -23,14 +23,14 @@ background-size: cover;
 
 <center><h1><font color = "white">It's the start that stops most people.Let's start with us.</font></h1></center>
 <br></br>
-<center><h2><font color = "white">Login to Web App</font></h2><center>
+<center><h2><font color = "white">Login to Web App</font></h2></center>
 
 <form action= "Login" method="post">
-<p><input type="text" name="username" value="" placeholder="Username"></p>
-<p><input type="password" name="password" value="" placeholder="Password"></p>
+<p><input type="text" name="username" ></p>
+<p><input type="password" name="password"></p>
 <input type = "submit" name= "Log In" VALUE="Log In"><br>
 <input type = "submit" name= "Register" VALUE="Register"><br>
-<center><h3><font color = "white">About us</font></h3><center>
+<center><h3><font color = "white">About us</font></h3></center>
 <center><p><font color = "white">Some large text here !</font></p></center>
 <a href="http://www.w3schools.com/html/" target="_blank">Presentation of the app!</a>
 <center><p><font color = "white">You can also help us by filling in our investigation in the link below.</font></p></center>

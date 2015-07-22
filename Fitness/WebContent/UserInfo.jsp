@@ -22,26 +22,22 @@
 
 <br></br>
 <form action = "UserInfo" method = "post" >
-
-<center><table>
-
-
-
-<tr><td><b>Weight(in kilograms):</b></td><td><input type="number" name="weight"/></td></tr>
-<tr><td><b>Height (in santimeters):</b></td><td><input type="number" name="height"/> </td></tr>
+<center>
+<table>
+<tr><td><b>Weight(in kilograms):</b></td><td><input type="text" name="weight"/></td></tr>
+<tr><td><b>Height (in santimeters):</b></td><td><input type="text" name="height"/> </td></tr>
 <tr>
 <td><b>Can you make 10 pullups and 20 pushups:</b></td>
 <td><select name="physic">
 <option>Yes</option>
 <option>No</option>
-</select></td>
+</select>
+</td>
 </tr>
 </table>
+<br>
 
-<br></br>
-<table>
 <b>Input activity level</b>
-
 <select name="ActivityLevel">
 <option>Rarely exercise</option>
 <option>Light exercise (1-3 hours)</option>
@@ -62,7 +58,6 @@
 <option>Lose fat - 25%</option>
 </select>
 <br>
-</table>
 </center>
 <br>
 <center><input type="submit" value="Submit" onclick="location.href='yourpage.html'" /></center><br>
