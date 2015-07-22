@@ -1,5 +1,5 @@
-#encoding=UTF-8
 #version=1
+Fitness,0.0.0,webapps/Fitness/,5,true
 cdi.api,1.0.0.v201105160744,plugins/cdi.api_1.0.0.v201105160744.jar,4,false
 ch.qos.logback.classic,1.0.7.v20121108-1250,plugins/ch.qos.logback.classic_1.0.7.v20121108-1250.jar,4,false
 ch.qos.logback.core,1.0.7.v20121108-1250,plugins/ch.qos.logback.core_1.0.7.v20121108-1250.jar,4,false

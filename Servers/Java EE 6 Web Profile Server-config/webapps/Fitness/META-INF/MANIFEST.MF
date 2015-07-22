@@ -1,8 +1,10 @@
 Manifest-Version: 1.0
 Module-Type: web-bundle
 Bundle-SymbolicName: Fitness
-Bundle-ClassPath: WEB-INF/classes,WEB-INF/lib/javax.servlet-api-3.1.0.
- jar
+Bundle-ClassPath: WEB-INF/classes,WEB-INF/lib/commonj.sdo-2.1.1.jar,WE
+ B-INF/lib/eclipselink-2.5.0.jar,WEB-INF/lib/javax.persistence-2.1.0.j
+ ar,WEB-INF/lib/javax.servlet-api-3.1.0.jar,WEB-INF/lib/org.osgi.found
+ ation-1.2.0.jar
 org-eclipse-gemini-web-DefaultWABHeaders: true
 Built-By: user
 Bundle-ManifestVersion: 2
