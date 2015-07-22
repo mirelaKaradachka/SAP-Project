@@ -75,3 +75,8 @@
 [2015-07-22 10:37:01.817] fs-watcher                   <HD0001I> Hot deployer processing 'INITIAL' event for file 'Fitness.war; '. 
 [2015-07-22 10:37:01.826] fs-watcher                   <HD0005I> Hot deploy not performed because file 'C:\Users\user\Desktop\SAP\SAP-Project\Servers\Java EE 6 Web Profile Server-config\pickup\Fitness.war' is already deployed. 
 [2015-07-22 10:37:02.619] pool-3-thread-1              <DS0000W> Failed to satisfy declarative service component 'com.sap.core.jpaas.security.utils' from origin bundle 'com.sap.core.jpaas.security.utils_1.4.24.rt2 [65]'. 
+[2015-07-22 11:00:57.709] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 11:00:57.874] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:00:59.425] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:01:16.376] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:01:18.967] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 

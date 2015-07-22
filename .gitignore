@@ -1,5 +1,11 @@
 /target/
+<<<<<<< HEAD
 /.metadata/
 /.recomenders/
 /Servers/
 *.class
+=======
+
+Fitness/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+Fitness/target/m2e-wtp/web-resources/META-INF/maven/Fitness/Fitness/pom.properties
+>>>>>>> fe86e6592af3826959a58f88179d4fef5fa1d0d0

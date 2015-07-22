@@ -813,3 +813,7 @@
 2015-07-22 10:34:01,160 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2015-07-22 10:34:01,171 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-07-22 10:34:01,172 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\user\Desktop\SAP\SAP-Project\Fitness\src\test\resources
+2015-07-22 10:58:13,540 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-22 10:58:14,162 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-22 10:58:14,165 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-22 10:58:14,188 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\user\Desktop\SAP\SAP-Project\Fitness\src\test\resources
