@@ -88,14 +88,6 @@ public class Login extends HttpServlet {
 				if (em.find(u.getClass(), SettingManager.cryptMD5(password)) == null) {
 					//response.sendError(0, "Wrong username or password");
 				}
-<<<<<<< HEAD
-				
-				// tyrsim ot bazata za user s username 
-				//i parolata dali syvpadat s tekushtata
-				
-				
-		
-=======
 			}
 			loggedIn = true;
 		} finally {
@@ -106,7 +98,6 @@ public class Login extends HttpServlet {
 //		if(loggedIn){
 //		response.sendRedirect();		
 //		}
->>>>>>> f4b5d6f73487f311d60d9ccebadb371e2b89a5a3
 	}
 
 }
