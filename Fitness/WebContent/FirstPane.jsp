@@ -10,9 +10,7 @@
 	background-image: url(Photos/tea.jpg);
 	height: 1200px;
 	width:20%;
-    float:left;
-	
-	
+    float:right;
 }
 </style>
 </head>

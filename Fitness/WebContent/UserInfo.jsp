@@ -24,21 +24,22 @@
 <form action = "UserInfo" method = "post" >
 
 <center><table>
-<tr>
-<td><b>Gender:</b></td>
-<td><select name="Gender">
-<option>Male</option>
-<option>Female</option>
-</select></td>
-</tr>
+
 
 
 <tr><td><b>Weight(in kilograms):</b></td><td><input type="number" name="weight"/></td></tr>
 <tr><td><b>Height (in santimeters):</b></td><td><input type="number" name="height"/> </td></tr>
-<tr><td><b>Age:</b></td><td><input type="number" name="age"/> </td></tr>
-
+<tr>
+<td><b>Can you make 10 pullups and 20 pushups:</b></td>
+<td><select name="physic">
+<option>Yes</option>
+<option>No</option>
+</select></td>
+</tr>
 </table>
+
 <br></br>
+<table>
 <b>Input activity level</b>
 
 <select name="ActivityLevel">

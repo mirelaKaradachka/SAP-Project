@@ -19,9 +19,7 @@ background-size: cover;
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
 <br></br>
 <body>
-<%@ include file="Header.jsp" %>
-<%@ include file="Menu.jsp" %>
-<%@ include file="FirstPane.jsp" %>
+
 
 <center><h1><font color = "white">It's the start that stops most people.Let's start with us.</font></h1></center>
 <br></br>

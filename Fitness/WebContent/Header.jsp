@@ -11,27 +11,13 @@
 	height: 70px;
 	width:90%;
     float:left;
-	
-	
-}
-#headerLog {
-	background-image: url(Photos/tea.jpg);
-	height: 70px;
-	width:10%;
-    float:left;
-	
 }
 </style>
 </head>
-<body >
+<body>
 
 <div id="header">
-<h1 align=center><i> Living healthy for life !</i></h3>
-</div>
-<div id="headerLog">
-<h3> You are are logged!</h3>
-</div>
-
+<h1 align=center><i> Living healthy for life !</i></h1>
 </div>
 </body>
 </html>
