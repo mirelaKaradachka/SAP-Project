@@ -41,19 +41,20 @@ public class Login extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
 		doPost(request, response);
 
-//		EntityManager em = factory.createEntityManager();
-//		try {
-//			em.getTransaction().begin();
-//			em.createQuery("select U from User U where U.naame = :name and U.pwd = :pwd", User.class)
-//					.setParameter("name", "").getSingleResult();
-//		} finally {
-//			if (null != em) {
-//				em.close();
-//			}
-//		}
+		// EntityManager em = factory.createEntityManager();
+		// try {
+		// em.getTransaction().begin();
+		// em.createQuery("select U from User U where U.naame = :name and U.pwd
+		// = :pwd", User.class)
+		// .setParameter("name", "").getSingleResult();
+		// } finally {
+		// if (null != em) {
+		// em.close();
+		// }
+		// }
 
 	}
 
@@ -71,7 +72,6 @@ public class Login extends HttpServlet {
 		password = (String) request.getParameter("password");
 		if (username != null && !username.isEmpty() && password != null && password.isEmpty()) {
 			u.setUsername(username);
-			response.setStatus(200);
 		} else {
 			response.setStatus(400);
 		}
@@ -79,34 +79,35 @@ public class Login extends HttpServlet {
 		// tyrsim ot bazata za user s username
 		// i parolata dali syvpadat s tekushtata
 
+		
 		EntityManager em = factory.createEntityManager();
+		if(em == null){
+			System.out.println("Entity not created.");
+			
+		}
 		boolean loggedIn = false;
 		try {
-			if (em.find(u.getClass(), username) == null) {
-				//response.sendError(0, "Wrong username or password");
-			} else {
-				if (em.find(u.getClass(), SettingManager.cryptMD5(password)) == null) {
-					//response.sendError(0, "Wrong username or password");
-				}
-<<<<<<< HEAD
+			if (em.find(u.getClass(), username) == null
+					|| em.find(u.getClass(), SettingManager.cryptMD5(password)) == null) {
+				// response.sendError(0,  "Wrong username or password");
+				response.sendError(400, "Not input parameters");
+				System.out.println("Wrong username or password");
+			} else
+				// tyrsim ot bazata za user s username
+				// i parolata dali syvpadat s tekushtata
 				
-				// tyrsim ot bazata za user s username 
-				//i parolata dali syvpadat s tekushtata
-				
-				
-		
-=======
-			}
-			loggedIn = true;
+System.out.println("Logged succefully!");
+				loggedIn = true;
 		} finally {
 			if (em != null) {
 				em.close();
 			}
 		}
-//		if(loggedIn){
-//		response.sendRedirect();		
-//		}
->>>>>>> f4b5d6f73487f311d60d9ccebadb371e2b89a5a3
+		 if(loggedIn){
+			
+		// response.sendRedirect();
+		 }
+
 	}
 
 }
