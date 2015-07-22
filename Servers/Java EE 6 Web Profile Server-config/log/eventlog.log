@@ -80,3 +80,224 @@
 [2015-07-22 11:00:59.425] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
 [2015-07-22 11:01:16.376] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
 [2015-07-22 11:01:18.967] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:25:42.987] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 11:25:43.034] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:25:44.231] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:26:00.275] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:26:02.205] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:27:53.550] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 11:27:53.590] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:27:54.436] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:28:02.136] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:28:04.198] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:29:52.525] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 11:29:52.541] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:29:53.461] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:29:59.124] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:30:01.074] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:32:27.444] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 11:32:27.491] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:32:28.302] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:32:34.516] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:32:36.766] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:34:32.895] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 11:34:32.911] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:34:33.878] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 11:34:39.148] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 11:34:41.118] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 12:18:17.068] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/oauth2.local'. 
+[2015-07-22 12:18:31.308] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/saml2/localidp'. 
+[2015-07-22 12:18:46.355] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/saml2/sp'. 
+[2015-07-22 12:18:57.728] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/n'. 
+[2015-07-22 12:19:12.187] startup-tracker              <KE0001I> Kernel starting. 
+[2015-07-22 12:19:12.207] startup-tracker              <KE0002I> Kernel started. 
+[2015-07-22 12:19:19.597] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 12:19:21.277] startup-readiness            <KE0007I> Virgo ready. Started for 108.942s. 
+[2015-07-22 12:19:22.269] fs-watcher                   <HD0001I> Hot deployer processing 'INITIAL' event for file 'Fitness.war; '. 
+[2015-07-22 12:19:22.269] fs-watcher                   <HD0005I> Hot deploy not performed because file 'C:\Users\user\Desktop\SAP\SAP-Project\Servers\Java EE 6 Web Profile Server-config\pickup\Fitness.war' is already deployed. 
+[2015-07-22 12:19:27.229] pool-3-thread-1              <DS0000W> Failed to satisfy declarative service component 'com.sap.core.jpaas.security.utils' from origin bundle 'com.sap.core.jpaas.security.utils_1.4.24.rt2 [65]'. 
+[2015-07-22 12:51:45.243] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 12:51:45.316] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 12:51:46.332] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 12:51:52.928] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 12:51:54.791] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:12:01.127] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:12:14.287] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:12:25.337] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:13:11.586] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:13:20.243] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:16:21.591] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:16:21.646] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:16:22.614] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:16:32.766] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:16:35.551] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:21:15.808] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:21:15.831] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:21:16.868] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:21:23.285] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:21:25.945] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:26:30.476] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:26:30.510] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:26:32.033] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:26:37.987] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:26:40.115] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:29:19.271] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:29:19.309] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:29:20.286] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:29:26.922] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:29:29.463] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:30:20.584] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:30:20.635] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:30:21.481] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:30:27.876] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:30:29.884] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:32:04.047] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:32:04.096] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:32:04.178] fs-watcher                   <DE0017E> Failed to update web bundle 'Fitness' version '0.0.0'. See the logs for more information. org.eclipse.virgo.util.io.FatalIOException: Content of destination path '.\webapps\Fitness' cannot be removed
+	at org.eclipse.virgo.util.io.ZipUtils.determineFinalUnzipDestination(ZipUtils.java:243)
+	at org.eclipse.virgo.util.io.ZipUtils.unzipToFolder(ZipUtils.java:159)
+	at org.eclipse.virgo.util.io.ZipUtils.unzipToDestructive(ZipUtils.java:81)
+	at org.eclipse.virgo.util.io.JarUtils.unpackToDestructive(JarUtils.java:58)
+	at org.eclipse.virgo.web.war.deployer.WARDeployer.update(WARDeployer.java:405)
+	at org.eclipse.virgo.nano.deployer.internal.StandardApplicationDeployer.deploy(StandardApplicationDeployer.java:98)
+	at org.eclipse.virgo.nano.deployer.internal.StandardApplicationDeployer.deploy(StandardApplicationDeployer.java:191)
+	at org.eclipse.virgo.nano.deployer.hot.HotDeploymentFileSystemListener.deploy(HotDeployerFileSystemListener.java:225)
+	at org.eclipse.virgo.nano.deployer.hot.HotDeploymentFileSystemListener.onChange(HotDeployerFileSystemListener.java:82)
+	at org.eclipse.virgo.util.io.FileSystemChecker.notifyListeners(FileSystemChecker.java:380)
+	at org.eclipse.virgo.util.io.FileSystemChecker.check(FileSystemChecker.java:289)
+	at org.eclipse.virgo.nano.deployer.hot.WatchTask.run(WatchTask.java:48)
+	at java.lang.Thread.run(Thread.java:745)
+
+[2015-07-22 15:34:09.306] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:34:09.320] fs-watcher                   <DE0017E> Failed to update web bundle 'Fitness' version '0.0.0'. See the logs for more information. org.eclipse.virgo.util.io.FatalIOException: Content of destination path '.\webapps\Fitness' cannot be removed
+	at org.eclipse.virgo.util.io.ZipUtils.determineFinalUnzipDestination(ZipUtils.java:243)
+	at org.eclipse.virgo.util.io.ZipUtils.unzipToFolder(ZipUtils.java:159)
+	at org.eclipse.virgo.util.io.ZipUtils.unzipToDestructive(ZipUtils.java:81)
+	at org.eclipse.virgo.util.io.JarUtils.unpackToDestructive(JarUtils.java:58)
+	at org.eclipse.virgo.web.war.deployer.WARDeployer.update(WARDeployer.java:405)
+	at org.eclipse.virgo.nano.deployer.internal.StandardApplicationDeployer.deploy(StandardApplicationDeployer.java:98)
+	at org.eclipse.virgo.nano.deployer.internal.StandardApplicationDeployer.deploy(StandardApplicationDeployer.java:191)
+	at org.eclipse.virgo.nano.deployer.hot.HotDeploymentFileSystemListener.deploy(HotDeployerFileSystemListener.java:225)
+	at org.eclipse.virgo.nano.deployer.hot.HotDeploymentFileSystemListener.onChange(HotDeployerFileSystemListener.java:82)
+	at org.eclipse.virgo.util.io.FileSystemChecker.notifyListeners(FileSystemChecker.java:380)
+	at org.eclipse.virgo.util.io.FileSystemChecker.check(FileSystemChecker.java:289)
+	at org.eclipse.virgo.nano.deployer.hot.WatchTask.run(WatchTask.java:48)
+	at java.lang.Thread.run(Thread.java:745)
+
+[2015-07-22 15:36:13.512] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:38:13.533] fs-watcher                   <DE0019E> Failed to update web bundle 'Fitness' version '0.0.0'. Possible reasons: 1. timeout reached; increase the value of the property org.eclipse.virgo.update.timeout (default is 120000 ms); 2. An error occurred in the operation for which the update was waiting. See logs for more information. 
+[2015-07-22 15:38:35.454] System Bundle Shutdown       <KE0010I> Shutdown initiated. 
+[2015-07-22 15:38:36.453] System Bundle Shutdown       <OE0002I> Destroyed enterprise container for application with context path '/oauth2.local'. 
+[2015-07-22 15:38:37.519] System Bundle Shutdown       <OE0002I> Destroyed enterprise container for application with context path '/saml2/localidp'. 
+[2015-07-22 15:38:37.819] System Bundle Shutdown       <OE0002I> Destroyed enterprise container for application with context path '/saml2/sp'. 
+[2015-07-22 15:38:39.192] System Bundle Shutdown       <OE0002I> Destroyed enterprise container for application with context path '/n'. 
+[2015-07-22 15:38:42.865] pool-3-thread-1              <DS0000W> Failed to satisfy declarative service component 'com.sap.core.connectivity.local.destinations.DestinationFactory' from origin bundle 'com.sap.core.connectivity.local.destinations_0.9.155.rt2 [42]'. 
+[2015-07-22 15:38:42.874] pool-3-thread-1              <DS0000W> Failed to satisfy declarative service component 'com.sap.jpaas.service.mail.service.MailSessionFactory' from origin bundle 'com.sap.jpaas.service.mail.service_1.0.1.rt2 [118]'. 
+[2015-07-22 15:38:42.875] pool-3-thread-1              <DS0000W> Failed to satisfy declarative service component 'com.sap.jpaas.service.securestore.password' from origin bundle 'com.sap.jpaas.service.securestore.password_0.7.21.rt2 [119]'. 
+[2015-07-22 15:38:42.876] pool-3-thread-1              <DS0000W> Failed to satisfy declarative service component 'com.sap.core.connectivity.destinations.DestinationObjectFactory' from origin bundle 'com.sap.core.connectivity.destinations_0.9.155.rt2 [36]'. 
+[2015-07-22 15:40:14.014] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/oauth2.local'. 
+[2015-07-22 15:40:28.248] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/saml2/localidp'. 
+[2015-07-22 15:40:56.170] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/saml2/sp'. 
+[2015-07-22 15:41:09.149] Start Level Event Dispatcher <OE0000I> Initialised enterprise container for application with context path '/n'. 
+[2015-07-22 15:41:50.586] startup-tracker              <KE0001I> Kernel starting. 
+[2015-07-22 15:41:50.637] startup-tracker              <KE0002I> Kernel started. 
+[2015-07-22 15:41:50.784] startup-readiness            <KE0007I> Virgo ready. Started for 146.536s. 
+[2015-07-22 15:41:51.784] fs-watcher                   <HD0001I> Hot deployer processing 'INITIAL' event for file 'Fitness.war; '. 
+[2015-07-22 15:41:51.927] fs-watcher                   <DE0001I> Installing from 'C:\Users\user\Desktop\SAP\SAP-Project\Servers\Java EE 6 Web Profile Server-config\pickup\Fitness.war'. 
+[2015-07-22 15:41:57.092] fs-watcher                   <DE0002I> Installed web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:41:57.095] fs-watcher                   <DE0009I> Starting web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:42:05.641] pool-3-thread-1              <DS0000W> Failed to satisfy declarative service component 'com.sap.core.jpaas.security.utils' from origin bundle 'com.sap.core.jpaas.security.utils_1.4.24.rt2 [65]'. 
+[2015-07-22 15:42:06.920] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:42:08.674] fs-watcher                   <DE0010I> Started web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:49:10.237] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:49:10.421] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:49:11.465] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:49:20.368] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:49:22.203] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:55:43.625] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 15:55:43.656] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:55:44.795] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 15:56:07.311] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 15:56:09.331] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:00:03.169] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:00:03.247] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:00:04.245] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:00:10.345] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:00:12.170] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:14:44.146] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:14:44.193] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:14:45.066] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:14:50.870] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:14:52.679] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:17:21.737] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:17:21.753] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:17:22.549] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:17:29.397] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:17:31.144] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:19:18.722] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:19:18.784] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:19:19.658] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:19:25.149] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:19:26.912] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:20:17.675] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:20:17.690] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:20:18.595] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:20:23.930] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:20:25.724] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:21:47.874] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:21:47.890] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:21:48.732] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:21:54.442] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:21:56.360] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:23:05.375] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:23:05.390] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:23:06.202] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:23:11.506] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:23:13.268] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:24:10.053] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:24:10.068] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:24:10.957] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:24:16.480] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:24:18.289] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:25:08.131] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:25:08.147] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:25:08.989] fs-watcher                   <DE0015I> Updating web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:25:14.543] fs-watcher                   <OE0000I> Initialised enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:25:16.415] fs-watcher                   <DE0016I> Updated web bundle 'Fitness' version '0.0.0'. 
+[2015-07-22 16:32:17.757] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:32:17.773] fs-watcher                   <OE0002I> Destroyed enterprise container for application with context path '/Fitness'. 
+[2015-07-22 16:32:17.908] fs-watcher                   <DE0017E> Failed to update web bundle 'Fitness' version '0.0.0'. See the logs for more information. org.eclipse.virgo.util.io.FatalIOException: Content of destination path '.\webapps\Fitness' cannot be removed
+	at org.eclipse.virgo.util.io.ZipUtils.determineFinalUnzipDestination(ZipUtils.java:243)
+	at org.eclipse.virgo.util.io.ZipUtils.unzipToFolder(ZipUtils.java:159)
+	at org.eclipse.virgo.util.io.ZipUtils.unzipToDestructive(ZipUtils.java:81)
+	at org.eclipse.virgo.util.io.JarUtils.unpackToDestructive(JarUtils.java:58)
+	at org.eclipse.virgo.web.war.deployer.WARDeployer.update(WARDeployer.java:405)
+	at org.eclipse.virgo.nano.deployer.internal.StandardApplicationDeployer.deploy(StandardApplicationDeployer.java:98)
+	at org.eclipse.virgo.nano.deployer.internal.StandardApplicationDeployer.deploy(StandardApplicationDeployer.java:191)
+	at org.eclipse.virgo.nano.deployer.hot.HotDeploymentFileSystemListener.deploy(HotDeployerFileSystemListener.java:225)
+	at org.eclipse.virgo.nano.deployer.hot.HotDeploymentFileSystemListener.onChange(HotDeployerFileSystemListener.java:82)
+	at org.eclipse.virgo.util.io.FileSystemChecker.notifyListeners(FileSystemChecker.java:380)
+	at org.eclipse.virgo.util.io.FileSystemChecker.check(FileSystemChecker.java:289)
+	at org.eclipse.virgo.nano.deployer.hot.WatchTask.run(WatchTask.java:48)
+	at java.lang.Thread.run(Thread.java:745)
+
+[2015-07-22 16:33:02.053] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:33:02.067] fs-watcher                   <DE0017E> Failed to update web bundle 'Fitness' version '0.0.0'. See the logs for more information. org.eclipse.virgo.util.io.FatalIOException: Content of destination path '.\webapps\Fitness' cannot be removed
+	at org.eclipse.virgo.util.io.ZipUtils.determineFinalUnzipDestination(ZipUtils.java:243)
+	at org.eclipse.virgo.util.io.ZipUtils.unzipToFolder(ZipUtils.java:159)
+	at org.eclipse.virgo.util.io.ZipUtils.unzipToDestructive(ZipUtils.java:81)
+	at org.eclipse.virgo.util.io.JarUtils.unpackToDestructive(JarUtils.java:58)
+	at org.eclipse.virgo.web.war.deployer.WARDeployer.update(WARDeployer.java:405)
+	at org.eclipse.virgo.nano.deployer.internal.StandardApplicationDeployer.deploy(StandardApplicationDeployer.java:98)
+	at org.eclipse.virgo.nano.deployer.internal.StandardApplicationDeployer.deploy(StandardApplicationDeployer.java:191)
+	at org.eclipse.virgo.nano.deployer.hot.HotDeploymentFileSystemListener.deploy(HotDeployerFileSystemListener.java:225)
+	at org.eclipse.virgo.nano.deployer.hot.HotDeploymentFileSystemListener.onChange(HotDeployerFileSystemListener.java:82)
+	at org.eclipse.virgo.util.io.FileSystemChecker.notifyListeners(FileSystemChecker.java:380)
+	at org.eclipse.virgo.util.io.FileSystemChecker.check(FileSystemChecker.java:289)
+	at org.eclipse.virgo.nano.deployer.hot.WatchTask.run(WatchTask.java:48)
+	at java.lang.Thread.run(Thread.java:745)
+
+[2015-07-22 16:33:36.455] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:35:37.152] fs-watcher                   <DE0019E> Failed to update web bundle 'Fitness' version '0.0.0'. Possible reasons: 1. timeout reached; increase the value of the property org.eclipse.virgo.update.timeout (default is 120000 ms); 2. An error occurred in the operation for which the update was waiting. See logs for more information. 
+[2015-07-22 16:35:39.180] fs-watcher                   <HD0001I> Hot deployer processing 'MODIFIED' event for file 'Fitness.war'. 
+[2015-07-22 16:37:39.862] fs-watcher                   <DE0019E> Failed to update web bundle 'Fitness' version '0.0.0'. Possible reasons: 1. timeout reached; increase the value of the property org.eclipse.virgo.update.timeout (default is 120000 ms); 2. An error occurred in the operation for which the update was waiting. See logs for more information. 

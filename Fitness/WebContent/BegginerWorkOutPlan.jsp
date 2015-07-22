@@ -10,9 +10,8 @@
 <%@ include file="Header.jsp" %>
  <%@ include file="Menu.jsp" %>
  <h1 align="center">Beginner Workout Plan</h1>
-Day 1 (Monday)
 <table align="center" border="1"  width="90%">
-<tr  border="0"><CENTER>Day 1 (Monday)</tr>
+<tr><td align="center"><b>Day 1 (Monday)</b></td></tr>
 <tr>
     <td width="400">Bodypart</td>
     <td>Exercise</td>
@@ -49,12 +48,12 @@ Day 1 (Monday)
      
 </tr>
 <tr>
-<td colspan="4">Cardio: 20 minutes â€“ brisk walk, bike or jog</td>
+<td colspan="4">Cardio: 20 minutes a brisk walk, bike or jog</td>
 </tr>
 </table>
 
 <table align="center" border="1"  width="90%">
-<tr  border="0"><CENTER>Day 2 (Wednesday)</tr>
+<tr><td align="center"><b>Day 2 (Wednesday)</b></td></tr>
 <tr>
     <td width="400">Bodypart</td>
     <td>Exercise</td>
@@ -91,12 +90,12 @@ Day 1 (Monday)
      
 </tr>
 <tr>
-<td colspan="4">Cardio: 20 minutes â€“ brisk walk, bike or jog</td>
+<td colspan="4">Cardio: 20 minutes a brisk walk, bike or jog</td>
 </tr>
 </table>
 
 <table align="center" border="1"  width="90%">
-<tr  border="0"><CENTER>Day 3 (Friday)</tr>
+<tr><td align="center"><b>Day 3 (Friday)</b></td></tr>
 <tr>
     <td width="400">Bodypart</td>
     <td>Exercise</td>
@@ -133,7 +132,7 @@ Day 1 (Monday)
      
 </tr>
 <tr>
-<td colspan="4">Cardio: 20 minutes â€“ brisk walk, bike or jog</td>
+<td colspan="4">Cardio: 20 minutes a€“ brisk walk, bike or jog</td>
 </tr>
 </table>
 <%@ include file="Footer.jsp" %>
