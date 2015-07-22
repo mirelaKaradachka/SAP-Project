@@ -35,7 +35,7 @@ public class Registration extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
 		String username;
 		String password;
 		String repassword;
@@ -55,7 +55,10 @@ public class Registration extends HttpServlet {
 		ismale = (String) request.getParameter("isMale");
 		Age = (String) request.getParameter("age");
 		age = Integer.parseInt(Age);
-		if(ismale.equals("Male")){
+		
+		//Validacii !!!
+		
+		if(ismale.equalsIgnoreCase("male")){
 			isMale = true;
 		}
 		else
@@ -63,13 +66,13 @@ public class Registration extends HttpServlet {
 		
 		//trqbuva data mladej
 		if (password != repassword) {
-			response.sendError(0, "Passwords do not match");
+			response.sendError(400, "Passwords do not match");
 		}
 
 		if (username == null || username.isEmpty() || password == null || password.isEmpty() || email == null
 				|| email.isEmpty()) {
-			response.setStatus(400);
-			response.sendError(0, "Invalid data input");
+			
+			response.sendError(400, "Invalid data input");
 		}
 
 		// MD5
