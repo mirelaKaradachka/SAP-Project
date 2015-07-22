@@ -41,7 +41,7 @@ public class Login extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
+
 		doPost(request, response);
 
 		// EntityManager em = factory.createEntityManager();
@@ -79,34 +79,35 @@ public class Login extends HttpServlet {
 		// tyrsim ot bazata za user s username
 		// i parolata dali syvpadat s tekushtata
 
-		
 		EntityManager em = factory.createEntityManager();
-		if(em == null){
+		if (em == null) {
 			System.out.println("Entity not created.");
-			
+
 		}
 		boolean loggedIn = false;
 		try {
 			if (em.find(u.getClass(), username) == null
 					|| em.find(u.getClass(), SettingManager.cryptMD5(password)) == null) {
-				// response.sendError(0,  "Wrong username or password");
+				// response.sendError(0, "Wrong username or password");
 				response.sendError(400, "Not input parameters");
 				System.out.println("Wrong username or password");
-			} else
+			} else {
 				// tyrsim ot bazata za user s username
 				// i parolata dali syvpadat s tekushtata
-				
-System.out.println("Logged succefully!");
+
+				System.out.println("Logged succefully!");
 				loggedIn = true;
+			}
 		} finally {
 			if (em != null) {
 				em.close();
 			}
 		}
-		 if(loggedIn){
-			
-		// response.sendRedirect();
-		 }
+
+		if (loggedIn) {
+
+			// response.sendRedirect();
+		}
 
 	}
 
